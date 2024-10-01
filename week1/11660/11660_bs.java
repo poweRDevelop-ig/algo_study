@@ -38,3 +38,7 @@ public class Main {
     System.out.println(sb);
   }
 }
+
+/*
+이 부분은 2차 배열에서 계산을 하는 방식을 몰라서 상당히 애를 먹었다.
+ */
