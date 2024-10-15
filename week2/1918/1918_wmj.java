@@ -53,20 +53,21 @@ public class Main {
                         sb.append(stack.pop());
                     }
                     stack.push(s.charAt(i));
+                    //현재 문자를 스택에 추가
                 }
             }
         }
-        while (!stack.isEmpty()) {
-            if (stack.peek() != '(') {
+        while (!stack.isEmpty()) {//스택에 남아있는 요소 꺼내는 루프
+            if (stack.peek() != '(') { //스택의 최상단 요소가 '('가 아닐 경우 스택에서 꺼냄
                 sb.append(stack.pop());
             }
         }
-        System.out.println(sb);
+        System.out.println(sb); //최종 결과 출력
 
     }
 
-    private static int checkPriority(char c) {
-        if (c == '+' || c == '-') {
+    private static int checkPriority(char c) { //연산자 우선순위 확인
+        if (c == '+' || c == '-') { //숫자가 클 수록 우선순위를 가짐니다
             return 1;
         } else if (c == '*' || c == '/') {
             return 2;

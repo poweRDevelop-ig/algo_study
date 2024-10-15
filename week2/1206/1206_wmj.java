@@ -20,17 +20,17 @@ public class Problem_1206 {
         int N = Integer.parseInt(br.readLine()); //몇 개의 문항 받을지
         double[] avg = new double[N]; //문항 별 평균 점수를 N개의 배열에 저장
 
-        for (int i = 0; i < N; i++) {
+        for (int i = 0; i < N; i++) { //N개 문항 반복문
             avg[i] = Double.parseDouble(br.readLine()); //배열의 i번째에 평균 점수 입력
-            avg[i] = avg[i] - Math.floor(avg[i]);
-            avg[i] = Math.round(avg[i] * 1000.0) / 1000.0;
+            avg[i] = avg[i] - Math.floor(avg[i]); //평균점수에서 정수부분 제거하여 소수점 부분만 남김
+            avg[i] = Math.round(avg[i] * 1000.0) / 1000.0; //소수점 셋째자리에서 반올림하여 평균 점수를 소수점 셋째자리로 자름
         }
 
-        boolean flag;
-        double[] cases = new double[1001];
-        for (int num = 1; num <= 1000; num++) {
-            for (int score = 1; score <= num; score++) {
-                cases[score] = Math.floor(((double) score / num) * 1000) / 1000.0;
+        boolean flag; //나중에 평균점수를 찾을 수 있는지 확인하는 변수
+        double[] cases = new double[1001]; //점수비율을 저장할 배열 case선언 -> 최대 1000명 고려
+        for (int num = 1; num <= 1000; num++) { //1000명 만큼 반복문
+            for (int score = 1; score <= num; score++) { //각 인원 수에 대해 1부터 num까지의 점수 반복
+                cases[score] = Math.floor(((double) score / num) * 1000) / 1000.0; //점수 비율 계산하여 소수점 셋째자리로 자름
             }
             flag = true;
             for (int j = 0; j < N; j++) {

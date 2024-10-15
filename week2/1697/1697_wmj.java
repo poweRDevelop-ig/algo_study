@@ -64,35 +64,45 @@ public class Problem_1697 {
         }
 
         boolean[] visited = new boolean[10001]; //음 이건 왜 10001인지 모르겠음
+        // -> 0부터 10000까지의 위치를 나타내기 위함
         visited[N] = true; //방문한 위치 표시
 
-        Queue<Integer> q = new LinkedList<>();
-        q.add(N); //큐에 위치 표시함
-        int size = q.size();
+        Queue<Integer> q = new LinkedList<>(); //BFS를 위해 사용할 큐를 생성함
+        q.add(N); //큐에  위치 표시함
+        int size = q.size(); //현재 큐의 크기를 size 변수에 저장
         int count = 0; //수빈이가 동생을 찾는데 걸린 시간(초)
-        while (true) {
-            count++;
+        while (true) { //BFS의 반복을 위해 while문 시작
+            count++; //매 반복마다 시간을 1초씩 증가시킴
             size = q.size(); //여기서 왜 다시 선언했는지는 잘 모르겠음
+            // -> 현재 큐의 크기를 다시 확인하여 size 변수에 저장
+            //    이번 루프에서 처리할 노드의 수를 나타냄
             for (int i = 0; i < size; i++) {
+                //현재 큐의 크기만큼 반복 -> 각 위치를 처리하기 위한 루프임
                 int x = q.remove();
+                //큐에서 위치 x를 꺼냄
                 visited[x] = true;
-
+                //꺼낸 위치를 방문했다고 표시함
                 if (x - 1 == K || x + 1 == K || x * 2 == K) {
-                    System.out.println(count);
+                    //방문한 위치가 동생의 위치인 K와 일치하는지 확인
+                    System.out.println(count); //일치할 경우 몇 번 걸렸는지 확인
                     return;
                 }
                 if (x - 1 >= 0 && !visited[x - 1]) {
+                    //수빈이가 왼쪽으로 한 칸 이동할 수 있는지 확인
                     visited[x - 1] = true;
                     q.add(x - 1);
+                    //왼쪽 위치가 유효하고 방문하지 않았다면 방문 표시 후 큐에 추가
                 }
                 if (x + 1 <= 100000 && !visited[x + 1]) {
+                    //오른쪽으로 이동 가능한지 표시
                     visited[x + 1] = true;
                     q.add(x + 1);
+                    //오른쪽 위치가 유효하고 방문하지 않았다면, 방문 표시 후 큐에 추가
                 }
 
                 if (x * 2 <= 100000 && !visited[x * 2]) {
                     visited[x * 2] = true;
-                    q.add(x * 2);
+                    q.add(x * 2);//한 번에 두 번 이동할 수 있는 경우의 수도 살펴봄
                 }
             }
         }
