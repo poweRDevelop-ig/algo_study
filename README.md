@@ -62,14 +62,14 @@
   - 힙 공부 및 구현(최소힙, 최대힙, 우선순위 큐 등)
 
   - 문제:
-    - [트리(11725)(https://www.acmicpc.net/problem/11725)
-    - [전, 중, 후위 순회(1991)(https://www.acmicpc.net/problem/1991)
+    - [트리(11725번)(https://www.acmicpc.net/problem/11725)
+    - [전, 중, 후위 순회(1991번)(https://www.acmicpc.net/problem/1991)
 
 ### 3주차 (3)
   - 서로소 집합(Disjoint-Set)과 Union-Find 공부 및 구현
 
   - 문제:
-    - [서로소 집합(1717)](https://www.acmicpc.net/problem/1717)
+    - [서로소 집합(1717번)](https://www.acmicpc.net/problem/1717)
 
 ---
 
