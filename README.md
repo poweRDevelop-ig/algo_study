@@ -72,3 +72,13 @@
     - [서로소 집합](https://www.acmicpc.net/problem/1717)
 
 ---
+
+## 3. 고급(4~5주차)
+
+### 4주차
+  - 다익스트라(Dijkstra) 공부 및 구현
+  - 최소신장트리(MST) 공부 및 구현(Prim, Kruskal)
+
+  - 문제:
+    - [다익스트라(1753번)](https://www.acmicpc.net/problem/1753)
+    - [최소신장트리(MST)(1922번번)](https://www.acmicpc.net/problem/1922)
