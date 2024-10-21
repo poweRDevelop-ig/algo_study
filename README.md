@@ -1,4 +1,4 @@
-# algo_study
+b# algo_study
 
 ## 1. 초급(1주차)
 
@@ -50,9 +50,9 @@
   - 그리디 공부 및 구현
 
   - 문제:
-    - [DFS + 조합](https://www.acmicpc.net/problem/17471) (코테st DFS)
-    - [그리디](https://www.acmicpc.net/problem/2839) (연습용)
-    - [그리디](https://www.acmicpc.net/problem/1931) (코테st 그리디)
+    - [DFS + 조합(17471)](https://www.acmicpc.net/problem/17471) (코테st DFS)
+    - [그리디(2839)](https://www.acmicpc.net/problem/2839) (연습용)
+    - [그리디(1937)](https://www.acmicpc.net/problem/1931) (코테st 그리디)
 
 ### 3주차 (2)
   - 트리의 종류와 특성 공부(이진트리, 포화이진트리, 완전이진트리)
@@ -62,13 +62,23 @@
   - 힙 공부 및 구현(최소힙, 최대힙, 우선순위 큐 등)
 
   - 문제:
-    - [트리](https://www.acmicpc.net/problem/11725)
-    - [전, 중, 후위 순회](https://www.acmicpc.net/problem/1991)
+    - [트리(11725)(https://www.acmicpc.net/problem/11725)
+    - [전, 중, 후위 순회(1991)(https://www.acmicpc.net/problem/1991)
 
 ### 3주차 (3)
   - 서로소 집합(Disjoint-Set)과 Union-Find 공부 및 구현
 
   - 문제:
-    - [서로소 집합](https://www.acmicpc.net/problem/1717)
+    - [서로소 집합(1717)](https://www.acmicpc.net/problem/1717)
 
 ---
+
+## 3. 고급(4~5주차)
+
+### 4주차
+  - 다익스트라(Dijkstra) 공부 및 구현
+  - 최소신장트리(MST) 공부 및 구현(Prim, Kruskal)
+
+  - 문제:
+    - [다익스트라(1753번)](https://www.acmicpc.net/problem/1753)
+    - [최소신장트리(MST)(1922번)](https://www.acmicpc.net/problem/1922)
