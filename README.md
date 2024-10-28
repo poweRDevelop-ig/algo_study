@@ -80,16 +80,16 @@
   - 최소신장트리(MST) 공부 및 구현(Prim, Kruskal)
 
   - 문제:
-    - [다익스트라](https://www.acmicpc.net/problem/1753)
-    - [최소신장트리(MST)](https://www.acmicpc.net/problem/1922)
+    - [다익스트라(1753번)](https://www.acmicpc.net/problem/1753)
+    - [최소신장트리(MST)(1922번)](https://www.acmicpc.net/problem/1922](https://www.acmicpc.net/problem/1922)
 
 ### 5주차
   - 백 트래킹 공부 및 구현
   - DP 공부 및 구현
 
   - 문제:
-    - [백 트래킹](https://www.acmicpc.net/problem/1987)
-    - [DP](https://www.acmicpc.net/problem/9095)
+    - [백 트래킹(1987)](https://www.acmicpc.net/problem/1987)
+    - [DP(9095번)](https://www.acmicpc.net/problem/9095)
 
 
 ### 기타 기억나는 유명한 문제들
