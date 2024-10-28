@@ -81,7 +81,7 @@
 
   - 문제:
     - [다익스트라(1753번)](https://www.acmicpc.net/problem/1753)
-    - [최소신장트리(MST)(1922번)](https://www.acmicpc.net/problem/1922](https://www.acmicpc.net/problem/1922)
+    - [최소신장트리(MST)(1922번)](https://www.acmicpc.net/problem/1922)
 
 ### 5주차
   - 백 트래킹 공부 및 구현
