@@ -62,33 +62,7 @@
   - 힙 공부 및 구현(최소힙, 최대힙, 우선순위 큐 등)
 
   - 문제:
-    - [트리(11725번)](https://www.acmicpc.net/problem/11725)
-    - [전, 중, 후위 순회(1991번)](https://www.acmicpc.net/problem/1991)
-
-### 3주차 (3)
-  - 서로소 집합(Disjoint-Set)과 Union-Find 공부 및 구현
-
-  - 문제:
-    - [서로소 집합(1717번)](https://www.acmicpc.net/problem/1717)
-
----
-
-## 3. 고급(4~5주차)
-
-### 4주차
-  - 다익스트라(Dijkstra) 공부 및 구현
-  - 최소신장트리(MST) 공부 및 구현(Prim, Kruskal)
-
-  - 문제:
-    - [다익스트라(1753번)](https://www.acmicpc.net/problem/1753)
-    - [최소신장트리(MST)(1922번)](https://www.acmicpc.net/problem/1922)
-### 5주차
-  - 백 트래킹 공부 및 구현
-  - DP 공부 및 구현
-
-  - 문제:
-    - [백 트래킹](https://www.acmicpc.net/problem/1987)
-    - [DP](https://www.acmicpc.net/problem/9095)
+    - [번)](https://www.acmicpc.net/problem/9095)
 
 
 ### 기타 기억나는 유명한 문제들
