@@ -82,3 +82,18 @@
   - 문제:
     - [다익스트라(1753번)](https://www.acmicpc.net/problem/1753)
     - [최소신장트리(MST)(1922번)](https://www.acmicpc.net/problem/1922)
+### 5주차
+  - 백 트래킹 공부 및 구현
+  - DP 공부 및 구현
+
+  - 문제:
+    - [백 트래킹](https://www.acmicpc.net/problem/1987)
+    - [DP](https://www.acmicpc.net/problem/9095)
+
+
+### 기타 기억나는 유명한 문제들
+_이거는 위에 것들 다 하고나면 나~~중에 찾아보고 해봅시다_
+  - [외판원 순회(2098번)](https://www.acmicpc.net/problem/2098)
+  - [냅색(그리디)(1450번)](https://www.acmicpc.net/problem/1450)
+  - [N-Queen(백트래킹(9663번))](https://www.acmicpc.net/problem/9663)
+  - 분할 정복
