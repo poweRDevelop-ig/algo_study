@@ -58,9 +58,8 @@ public class Problem_1931 {
             @Override
             public int compare(int[] o1, int[] o2) {
                 // 종료시간이 같을 경우 시작시간이 빠른 순으로 정렬한다
-                // 즉, 회의 시간이 짧은 것을 골라내는 거
 
-                if (o1[1] == o2[2]) {
+                if (o1[1] == o2[1]) {
                     return o1[0] - o2[0];
                 }
 
