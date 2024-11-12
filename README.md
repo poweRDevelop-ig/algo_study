@@ -1,8 +1,7 @@
 # Algorithm Study Roadmap
 
-# Algorithm Study Roadmap
-
-## week1 - week5
+<details>
+<summary>week1 - week5</summary>
 
 ## 1. 초급(1주차)
 
@@ -103,8 +102,8 @@
 - [냅색(그리디)](https://www.acmicpc.net/problem/1450)
 - [N-Queen(백트래킹)](https://www.acmicpc.net/problem/9663)
 - 분할 정복
-
 ---
+</details>
 
 ### 6주차
 
@@ -113,10 +112,12 @@
 - 우선순위 큐 or deque
 - 정렬
 - 문제:
-    - [구간 합 구하기 4(11659)]([https://www.acmicpc.net/problem/11659](https://www.acmicpc.net/problem/11659))
-    - [좋다(1253)]([https://www.acmicpc.net/problem/1253](https://www.acmicpc.net/problem/1253))
-    - [최솟값 찾기(11003)]([https://www.acmicpc.net/problem/11003](https://www.acmicpc.net/problem/11003))
-    - [수 정렬하기(2750)]([https://www.acmicpc.net/problem/2750](https://www.acmicpc.net/problem/2750))
+    - [구간 합 구하기 4(11659번)](https://www.acmicpc.net/problem/11659)
+    - [좋다(1253번)](https://www.acmicpc.net/problem/1253)
+    - [최솟값 찾기(11003번)](https://www.acmicpc.net/problem/11003)
+    - [수 정렬하기(2750번)](https://www.acmicpc.net/problem/2750)
+      
+---
 
 ### 7주차
 
