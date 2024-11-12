@@ -98,3 +98,4 @@ _이거는 위에 것들 다 하고나면 나~~중에 찾아보고 해봅시다_
   - [냅색(그리디)](https://www.acmicpc.net/problem/1450)
   - [N-Queen(백트래킹)](https://www.acmicpc.net/problem/9663)
   - 분할 정복
+x
