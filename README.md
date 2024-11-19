@@ -133,6 +133,20 @@
  
 ---
 
+### 8주차
+
+- 에라토스테네스의 체(소수 구하기)
+- 유니온 파인드
+- 진입차수 배열, 위상정렬
+- 다익스트라
+- 문제:
+    - [소수 구하기(37, 1929)](https://www.acmicpc.net/problem/1929)
+    - [집합 표현하기(50, 1717)](https://www.acmicpc.net/problem/1717)
+    - [게임 개발하기(54, 1516)](https://www.acmicpc.net/problem/1516)
+    - [최단 경로 구하기(56, 1753)](https://www.acmicpc.net/problem/1753)
+ 
+---
+
 ### N주차
 
 - 
