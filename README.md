@@ -126,10 +126,10 @@
 - HashSet or 정렬과 이분 탐색
 - 그리디 or Split
 - 문제:
-    - [연결 요소의 개수(11724번)](https://www.acmicpc.net/problem/11724)
-    - [DFS와 BFS(1260번)](https://www.acmicpc.net/problem/1260)
-    - [수 찾기(1920번)](https://www.acmicpc.net/problem/1920)
-    - [잃어버린 괄호(1541번)](https://www.acmicpc.net/problem/1541)
+    - [연결 요소의 개수(23, 11724번)](https://www.acmicpc.net/problem/11724)
+    - [DFS와 BFS(26, 1260번)](https://www.acmicpc.net/problem/1260)
+    - [수 찾기(29, 1920번)](https://www.acmicpc.net/problem/1920)
+    - [잃어버린 괄호(36, 1541번)](https://www.acmicpc.net/problem/1541)
  
 ---
 
